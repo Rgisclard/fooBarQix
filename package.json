@@ -1,0 +1,23 @@
+{
+  "name": "foobarqix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rgisclard/fooBarQix.git"
+  },
+  "author": "romain Gisclard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rgisclard/fooBarQix/issues"
+  },
+  "homepage": "https://github.com/Rgisclard/fooBarQix#readme",
+  "dependencies": {
+    "mocha": "^6.2.2",
+    "typescript": "^3.6.4"
+  }
+}
