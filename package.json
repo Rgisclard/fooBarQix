@@ -2,9 +2,12 @@
   "name": "foobarqix",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
   "scripts": {
-    "test": "test"
+    "build": "tsc --declaration -p tsconfig.json",
+    "test:watch": "TS_NODE_FAST=true mocha -r ts-node/register  --watch 'tests/*.test.ts'",
+    "clean": "rm -rf build"
   },
   "repository": {
     "type": "git",
@@ -17,7 +20,15 @@
   },
   "homepage": "https://github.com/Rgisclard/fooBarQix#readme",
   "dependencies": {
+    "@types/node": "^7.0.27",
     "mocha": "^6.2.2",
-    "typescript": "^3.6.4"
+    "typescript": "^3.6.4",
+    "chai": "^4.0.1",
+    "ts-node": "^3.0.4",
+    "tslib": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.4",
+    "@types/mocha": "^2.2.48"
   }
 }
