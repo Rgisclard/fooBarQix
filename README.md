@@ -12,6 +12,6 @@ For each digit 3, 5, 7, add “Foo”, “Bar”, “Qix” in the digits order.
 
 npm install
 
-#run test
+# run test
 
 npm run test:watch
