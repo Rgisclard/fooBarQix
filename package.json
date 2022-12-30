@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Rgisclard/fooBarQix#readme",
   "dependencies": {
     "@types/node": "^7.0.27",
-    "mocha": "^6.2.2",
+    "mocha": "^10.2.0",
     "typescript": "^3.6.4",
     "chai": "^4.0.1",
     "ts-node": "^3.0.4",
